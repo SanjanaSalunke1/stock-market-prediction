@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockPredict - AI Stock Market Prediction</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">StockPredict</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Predictions</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <a href="#" class="btn">Login/Register</a>
+            <a href="#" class="profile-icon">👤</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Predict Stock Prices with AI!</h1>
+            <p>Enter a stock symbol to get AI-powered predictions.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Enter Stock Symbol...">
+                <button>Predict</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Market Trends -->
+    <section class="market-trends">
+        <h2>Live Market Trends</h2>
+        <div class="ticker">
+            <marquee>📈 AAPL: $175.34 ▲1.5% &nbsp;&nbsp; 📉 TSLA: $232.45 ▼2.1% &nbsp;&nbsp; 📈 AMZN: $3420.89 ▲0.9%</marquee>
+        </div>
+        <div class="trending-stocks">
+            <div class="gainers">
+                <h3>Top Gainers</h3>
+                <ul>
+                    <li>GOOGL +3.2%</li>
+                    <li>MSFT +2.8%</li>
+                    <li>NVDA +5.1%</li>
+                </ul>
+            </div>
+            <div class="losers">
+                <h3>Top Losers</h3>
+                <ul>
+                    <li>TSLA -2.5%</li>
+                    <li>FB -1.9%</li>
+                    <li>BABA -3.0%</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="feature-list">
+            <div class="feature">🔮 AI Predictions (LSTM, CNN, RL-based)</div>
+            <div class="feature">📊 Historical Data Analysis</div>
+            <div class="feature">📰 Sentiment Analysis (News & Tweets)</div>
+            <div class="feature">📈 Custom Portfolio Tracking</div>
+        </div>
+    </section>
+
+    <!-- Testimonials & Trust Signals -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="review">
+            <p>"StockPredict helped me make better investment decisions. Amazing AI-powered insights!"</p>
+            <strong>- John Doe</strong>
+        </div>
+        <div class="featured">
+            <h3>Featured In:</h3>
+            <img src="images/forbes.png" alt="Forbes">
+            <img src="images/bloomberg.png" alt="Bloomberg">
+            <img src="images/cnbc.png" alt="CNBC">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="policies">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2025 StockPredict. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+    

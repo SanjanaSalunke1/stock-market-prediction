@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Search with Price</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/search.css' %}">
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" id="stockInput" placeholder="Search for a stock...">
+        <div class="results" id="results"></div>
+    </div>
+
+    <script src="{% static 'static/js/search.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction | CapitalBlue</title>
+    <link rel="stylesheet" href="CBpredict.css">
+</head>
+<body>
+
+    <header>
+        <h1>CapitalBlue - Predict Stocks</h1>
+    </header>
+
+    <main>
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="stockSearch" placeholder="Enter stock symbol...">
+            <button onclick="predictStock()">Predict</button>
+        </div>
+
+        <!-- Stock Details Card -->
+        <div class="stock-card">
+            <h2 id="stock-name">Stock Name</h2>
+            <p><strong>Current Price:</strong> <span id="stock-price">$0.00</span></p>
+            <p><strong>Market Sentiment:</strong> <span id="sentiment">Neutral</span></p>
+            <button class="save-btn">Save to Portfolio</button>
+        </div>
+
+        <!-- Prediction Chart (Placeholder) -->
+        <div class="chart-container">
+            <h2>Prediction Chart</h2>
+            <div class="chart-placeholder">📈 Chart will be displayed here</div>
+        </div>
+
+        <!-- Technical Indicators -->
+        <div class="indicators">
+            <h2>Technical Indicators</h2>
+            <ul>
+                <li>RSI: <span id="rsi">N/A</span></li>
+                <li>MACD: <span id="macd">N/A</span></li>
+                <li>Moving Average: <span id="moving-average">N/A</span></li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="CBpredict.js"></script>
+</body>
+</html>

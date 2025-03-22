@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E0E0E0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #002B5B;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* Search Container */
+.search-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #00509D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.search-container button:hover {
+    background: #004080;
+}
+
+/* Stock Card */
+.stock-card {
+    background: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.stock-card h2 {
+    color: #002B5B;
+    margin-bottom: 10px;
+}
+
+.save-btn {
+    background: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.save-btn:hover {
+    background: #CC4628;
+}
+
+/* Prediction Chart */
+.chart-container {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-placeholder {
+    height: 200px;
+    line-height: 200px;
+    background: #ddd;
+    text-align: center;
+    border-radius: 5px;
+    color: #002B5B;
+    font-weight: bold;
+}
+
+/* Technical Indicators */
+.indicators {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.indicators h2 {
+    color: #002B5B;
+}
+
+.indicators ul {
+    list-style: none;
+    padding: 0;
+}
+
+.indicators li {
+    font-size: 18px;
+    padding: 5px 0;
+    color: #00509D;
+}
